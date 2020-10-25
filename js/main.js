@@ -35,6 +35,7 @@ console.log(` The circumference is ${CircumfenceFinal}, and the Area is ${AreFin
 °F to °C	Deduct 32, then multiply by 5, then divide by 9
   */
 
+  
 let celsiusValue = 50;
 let celsiusFahrenheitConvertion = celsiusValue / 5 * 9 + 30;
 let CelsitoFahFinal = celsiusFahrenheitConvertion.toFixed(0)
