@@ -23,9 +23,9 @@ console.log(` You will need ${SnackTotalFromToday} to last you until the ripe ol
 let piValue = 3.14;
 let circleRadius = 10;
 let circumference = 2 * piValue * circleRadius;
-let CircumfenceFinal = circumference.toFixed(0)
+let CircumfenceFinal = circumference.toFixed(4)
 let AreaOfTheCircle = piValue * circleRadius**2;
-let AreFinalResult = AreaOfTheCircle.toFixed(0)
+let AreFinalResult = AreaOfTheCircle.toFixed(4)
 console.log(` The circumference is ${CircumfenceFinal}, and the Area is ${AreFinalResult} `)
 
 //EXERCISE 5: The Temperature Converter
