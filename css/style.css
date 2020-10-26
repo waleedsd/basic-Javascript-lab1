@@ -7,8 +7,8 @@ body {
 h1 {
 
     color: #fff;
-    text-shadow: 4px 4px #743272;
-    font-size: 3rem;
+    text-shadow: 4px 2px #14401d;
+    font-size: 4rem;
     text-align: center;
 }
 p {
@@ -26,7 +26,7 @@ p {
 
 h2 {
     color: #2e0c2d;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     text-shadow: 3px 3px #c9e8d0;
     padding-left: 3rem;
 }
