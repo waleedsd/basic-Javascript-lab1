@@ -22,9 +22,10 @@ console.log(` You will need ${SnackTotalFromToday} to last you until the ripe ol
 //Calculate properties of a circle, using the definitions here. Store a radius into a variable. Calculate the circumference based on the radius, and output "The circumference is NN". Calculate the area based on the radius, and output "The area is NN".
 let piValue = Math.PI;
 let circleRadius = 10;
+
 let circumference = 2 * piValue * circleRadius;
 let CircumfenceFinal = circumference.toFixed(0)
-let AreaOfTheCircle = piValue * circleRadius**2;
+let AreaOfTheCircle = piValue * circleRadius **2;
 let AreFinalResult = AreaOfTheCircle.toFixed(0)
 console.log(` The circumference is ${CircumfenceFinal}, and the Area is ${AreFinalResult} `)
 
