@@ -20,7 +20,7 @@ console.log(` You will need ${SnackTotalFromToday} to last you until the ripe ol
 
 //EXERCISE 4: The Geometrizer Area of the circle = π × R²  Circumference of a circle	2 × π × R.
 //Calculate properties of a circle, using the definitions here. Store a radius into a variable. Calculate the circumference based on the radius, and output "The circumference is NN". Calculate the area based on the radius, and output "The area is NN".
-let piValue = 3.14;
+let piValue = Math.PI;
 let circleRadius = 10;
 let circumference = 2 * piValue * circleRadius;
 let CircumfenceFinal = circumference.toFixed(0)
