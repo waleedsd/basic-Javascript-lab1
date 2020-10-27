@@ -27,7 +27,8 @@ let circumference = 2 * piValue * circleRadius;
 let CircumfenceFinal = circumference.toFixed(0)
 let AreaOfTheCircle = piValue * circleRadius **2;
 let AreFinalResult = AreaOfTheCircle.toFixed(0)
-console.log(` The circumference is ${CircumfenceFinal}, and the Area is ${AreFinalResult} `)
+console.log(` The circumference is ${CircumfenceFinal}cm. `)
+console.log(` The Area is ${AreFinalResult}cm. `)
 
 //EXERCISE 5: The Temperature Converter
 //It's hot out! Let's make a converter based on the steps here. Store a celsius temperature into a variable. Convert it to fahrenheit and output "NN°C is NN°F".  Now store a fahrenheit temperature into a variable. Convert it to celsius and output "NN°F is NN°C."
