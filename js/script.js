@@ -25,9 +25,9 @@ let piValue = Math.PI;
 let circleRadius = 10;
 
 let circumference = 2 * piValue * circleRadius;
-let CircumfenceFinal = circumference.toFixed(0)
+let CircumfenceFinal = circumference.toFixed(4)
 let AreaOfTheCircle = piValue * circleRadius **2;
-let AreFinalResult = AreaOfTheCircle.toFixed(0);
+let AreFinalResult = AreaOfTheCircle.toFixed(4);
 
 console.log(` The circumference is ${CircumfenceFinal}cm. `)
 console.log(` The Area is ${AreFinalResult}cm. `)
